@@ -7,3 +7,7 @@ var numericalCharacters = "0123456789";
 var specialCharacters = "!#$%&'()*+-./:;<=>?@[\^_`{|}~";
 
 generateBtn.addEventListener("click", generatePassword);
+
+function generatePassword() {
+    
+}
