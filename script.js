@@ -27,7 +27,16 @@ function generatePassword() {
        passwordCharSet += lowercaseCharacters;
     }
   
+    var uppercaseCharactersChoice = confirm("How about a few uppercase letters?")
 
+    if (uppercaseCharactersChoice) {
+        passwordCharSet += uppercaseCharacters;
+    }
 
+    var numericalCharactersChoice = confirm("What’s a password without a couple of numbers? Would you like to add them to yours?");
 
+    if (specialCharacterChoice) {
+        passwordCharSet += specialCharacters;
+    }
+    
 }
