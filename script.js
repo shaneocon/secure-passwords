@@ -4,7 +4,7 @@ var generateBtn = document.querySelector("#generate");
 var lowercaseChar = "abcdefghijklmnopqrstuvwxyz";
 var uppercaseChar = "ABCDEFGHIJKLMNOPQRSTUZWXYZ";
 var numericalChar = "0123456789";
-var specialChar = "!#$%&'()*+-./:;<=>?@[\^_`{|}~";
+var specialChar = "!#$%&()*+-./<=>?@[\^_{}~";
 var password1 = [];
 
 
