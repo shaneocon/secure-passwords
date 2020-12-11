@@ -26,4 +26,10 @@
  
 This assignment was a slog.  I really struggled to get off the ground on this one. Even after speaking with BCS Learning Assistant and spending most of my time after class Wednesday Googling, sorting through Stack Overflow and W3 Schools threads, trying out Reddit and a free Javascript course on Scrimba, I was left scratching my head, confused.   
  
-I'm okay with the results.  At the end of the day, I got something down, even if it's not a "functional generator." I was able to find some very helpful videos and believe that I learned a lot along the way during this assignment.   I definitely got close to pulling my hair out a few times and there may have been some angry "whisper shouting" but I'm putting this assignment behind me. 
+But I finished it.  And it works perfectly. 
+
+I was able to find some very helpful videos and believe that I learned a lot along the way during this assignment.   I definitely got close to pulling my hair out a few times and there may have been some angry "whisper shouting" at but... it's over, it's done. 
+
+### SHOUT OUT
+
+Shout out to my classmate, Anzel Capparelli.  If BCS Learning Assistants don't hire him directly following this class, they're fools.  I had at least 2 a-ha's in 15 minutes of working through the homework with Anzel. Really appreciate the last minute assistance. 
