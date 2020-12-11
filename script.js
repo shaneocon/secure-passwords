@@ -5,6 +5,7 @@ var lowercaseChar = "abcdefghijklmnopqrstuvwxyz";
 var uppercaseChar = "ABCDEFGHIJKLMNOPQRSTUZWXYZ";
 var numericalChar = "0123456789";
 var specialChar = "!#$%&'()*+-./:;<=>?@[\^_`{|}~";
+var password1 = [];
 
 
 function generatePassword() {
@@ -52,20 +53,54 @@ function generatePassword() {
 
     for (var i = 0; i < passwordLengthUser; i++) {
         password = passwordChar[Math.floor(Math.random() * passwordChar.length)];
-        password.push(passwordChar)
+        password1.push(password)
+
+        // {
+        //     return password.join("");
+        // }
     }
-    {
-    return password.join("");
-    }   
-    
-    function writePassword(password){
-        var password = generatePassword();
-        var pwTextArea = document.getElementById("#password");
-        pwTextArea.value = password;
-        return ("") 
-    }
-    
+
+    var condensedPassword1 = password1.join("");
+    console.log(condensedPassword1)
+    return condensedPassword1;
 }
 
-generateBtn.addEventListener("click", generatePassword);
+function getRandom() {
+    var password = generatePassword();
+    console.log(password)
+    var pwTextArea = document.querySelector("#password");
+    pwTextArea.value = password;
+  
+}
 
+
+
+generateBtn.addEventListener("click", getRandom);
+
+
+// These were suggestions from the BCSLearningAssistant but I'm unsure of where to implement them to get the code working.  
+
+//
+//
+//
+
+//  Function for getting a random element from an array
+// function getRandom(arr) {
+//     var randIndex = Math.floor(Math.random() * arr.length);
+//     var randElement = arr[randIndex];
+
+//     return randElement;
+//   }
+
+// Conditional statement that adds array of special characters into array of possible characters based on user input
+// Push new random special character to guaranteedCharacters
+//   if (options.hasSpecialCharacters) {
+//     possibleCharacters = possibleCharacters.concat(specialCharacters);
+//     guaranteedCharacters.push(getRandom(specialCharacters));
+
+// For loop to iterate over the password length from the options object, selecting random indices from the array of possible characters and concatenating those characters into the result variable
+// for (var i = 0; i < options.length; i++) {
+//     var possibleCharacter = getRandom(possibleCharacters);
+
+//     result.push(possibleCharacter);
+//   }
