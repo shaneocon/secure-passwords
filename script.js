@@ -78,29 +78,3 @@ function getRandom() {
 generateBtn.addEventListener("click", getRandom);
 
 
-// These were suggestions from the BCSLearningAssistant but I'm unsure of where to implement them to get the code working.  
-
-//
-//
-//
-
-//  Function for getting a random element from an array
-// function getRandom(arr) {
-//     var randIndex = Math.floor(Math.random() * arr.length);
-//     var randElement = arr[randIndex];
-
-//     return randElement;
-//   }
-
-// Conditional statement that adds array of special characters into array of possible characters based on user input
-// Push new random special character to guaranteedCharacters
-//   if (options.hasSpecialCharacters) {
-//     possibleCharacters = possibleCharacters.concat(specialCharacters);
-//     guaranteedCharacters.push(getRandom(specialCharacters));
-
-// For loop to iterate over the password length from the options object, selecting random indices from the array of possible characters and concatenating those characters into the result variable
-// for (var i = 0; i < options.length; i++) {
-//     var possibleCharacter = getRandom(possibleCharacters);
-
-//     result.push(possibleCharacter);
-//   }
