@@ -27,9 +27,11 @@
  
 This assignment was a slog.  I really struggled to get off the ground on this one. Even after speaking with BCS Learning Assistant and spending most of my time after class Wednesday Googling, sorting through Stack Overflow and W3 Schools threads, trying out Reddit and a free Javascript course on Scrimba, I was left scratching my head, confused.   
  
-But I finished it.  And it works perfectly. 
+But I finished it.  And it works. 
 
-I was able to find some very helpful videos and believe that I learned a lot along the way during this assignment.   I definitely got close to pulling my hair out a few times and there may have been some angry "whisper shouting" at but... it's over, it's done. 
+I was able to find some very helpful videos and believe that I learned a lot along the way during this assignment.   I definitely got close to pulling my hair out a few times and there may have been some angry "whisper shouting" at but...  
+
+![FrodoBagginsMeme](./img/frodo.jpg)
 
 ### SHOUT OUT
 
