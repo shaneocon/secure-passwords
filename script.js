@@ -6,9 +6,10 @@ var uppercaseChar = "ABCDEFGHIJKLMNOPQRSTUZWXYZ";
 var numericalChar = "0123456789";
 var specialChar = "!#$%&'()*+-./:;<=>?@[\^_`{|}~";
 
+
 function generatePassword() {
 
-    var newPw = "";
+    var password = "";
     var passwordChar = "";
     //    creates user prompt to select password length
     var passwordLengthUser = prompt("How many characters would you like your password to be? Password must be between 8-128 characters.");
@@ -50,15 +51,19 @@ function generatePassword() {
     }
 
     for (var i = 0; i < passwordLengthUser; i++) {
-        var newPw = passwordChar[Math.floor(Math.random() * passwordChar.length)]
+        password = passwordChar[Math.floor(Math.random() * passwordChar.length)]
     }
-
-    function writePassword() {
-        var newPw = generatePassword();
-        var pwTextArea = document.querySelector("#password")
-        pwTextArea.value = newPw;
+    
+    function writePassword(password){
+        var password = generatePassword();
+        var pwTextArea = document.getElementById("#password");
+        pwTextArea.value = password;
+        return ("") 
     }
+    
 }
 
 generateBtn.addEventListener("click", generatePassword);
-writePassword();
+
+
+
