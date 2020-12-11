@@ -51,8 +51,12 @@ function generatePassword() {
     }
 
     for (var i = 0; i < passwordLengthUser; i++) {
-        password = passwordChar[Math.floor(Math.random() * passwordChar.length)]
+        password = passwordChar[Math.floor(Math.random() * passwordChar.length)];
+        password.push(passwordChar)
     }
+    {
+    return password.join("");
+    }   
     
     function writePassword(password){
         var password = generatePassword();
@@ -64,6 +68,4 @@ function generatePassword() {
 }
 
 generateBtn.addEventListener("click", generatePassword);
-
-
 
